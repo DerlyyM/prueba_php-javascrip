@@ -26,9 +26,8 @@
                         </div>
                         <div class="mb-3">
                             <label for="nombres">Nombre del proveedor</label>
-                            <input type="text" name="nombre" class="form-control" required>
-
-                         </div>
+                            <input type="text" name="nombres" class="form-control" required>
+                        </div>
                         <div class="mb-3">
                             <label class="form-label">Email Proveedor</label>
                             <input type="email" name="email" class="form-control" required>
@@ -43,7 +42,7 @@
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Nombre Producto</label>
-                            <input type="text" name="producto" class="form-control" required>
+                            <input type="text" name="nombre_producto" class="form-control" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Marca</label>
@@ -55,10 +54,11 @@
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Valor Unitario</label>
-                            <input type="number" step="0.01" name="precio" class="form-control" required>
+                            <input type="number" step="0.01" name="valor_unitario" class="form-control" required>
                         </div>
                         <button type="submit" class="btn btn-success w-100">Guardar Compra</button>
                     </form>
+
                 </div>
             </div>
         </div>
