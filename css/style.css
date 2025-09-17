@@ -1,0 +1,10 @@
+body {
+    background-color: #eaf2f8; /* azul clarito de fondo */
+}
+.card {
+    border-radius: 12px;
+}
+.card-header {
+    font-weight: bold;
+    text-align: center;
+}
